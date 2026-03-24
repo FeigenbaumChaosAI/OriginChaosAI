@@ -83,3 +83,4 @@ seed = X[0]  # 取第一个样本作为初始种子
 pred_chaos = generate_chaos(model, seed, steps=200)
 print("\n生成混沌序列前10项：")
 print(np.round(pred_chaos[:10], 6))
+# Origin: Zero → Chaos → Rebirth. The cycle is self-driven.
